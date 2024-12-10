@@ -1,0 +1,116 @@
+<html>
+<title>Router</title>
+<body bgcolor="CBC7D1">
+<div style="background-color:95A1A1; padding:20px; border-radius:40px; border-style: dashed; border-width: thin;">
+
+<font face="ink free"><b>
+
+<center>
+<div style="background-color:95A1A1; padding:20px; border-radius:40px; border-style: solid;">
+<font size="10" color="black" type="Tahoma"><img src="cry.gif" style="width:60px; height:60px; margin-right: 20px;">
+Router Configuration<img src="cry.gif" style="width:60px; height:60px; margin-right: 10px;">
+</font>
+<br>
+<font size="5" color="black"><u>Grade 11 St. Ephrem</u></font>
+<br>
+</div>
+<hr color="black">
+</center>
+</head> 
+</body>
+<body>
+
+<h2><font color="red"><u>To configure a router, you typically access its configuration interface (either a web GUI or a command-line interface) and set up various settings based on your network requirements. Here’s a comprehensive step-by-step guide:</u></font></h2>
+
+<h2><u><font color="red">Access the Router Interface</font></u></h2>
+
+<ul>
+<li><u>Method 1: Web Browser</u></li>
+<li>Connect your computer to the router via Ethernet or Wi-Fi.</li>
+<li>Open a web browser and enter the default IP address, usually 192.168.1.1 or 192.168.0.1 (check your router’s manual for this).</li>
+<li>Enter the default username and password (often admin/admin or admin/password).</li>
+<br>
+<li><u>Method 2:</u> Command Line (for enterprise or Cisco routers)</li>
+<li>Use a terminal emulator (e.g., PuTTY for Windows, Terminal on macOS/Linux).</li>
+<li>Connect via serial cable, Ethernet, or SSH.</li>
+<li>Type enable to enter privileged EXEC mode, and log in with the admin credentials.</li>
+</ul>
+
+<h2><u><font color="red">Basic Router Configuration</font></u></h2>
+
+
+<ul>
+<li>Change Admin Password: Go to the Admin or System Settings section and update the password for security.</li>
+<li>Set Up Wi-Fi Network (SSID): In the Wireless Settings, name your Wi-Fi network (SSID) and set a strong password (WPA2 or WPA3 is recommended).</li>
+<br>
+<li>Internet Connection Setup:</li>
+<li>Dynamic IP (DHCP): Automatically get IP settings from the ISP</li>
+<li>Static IP: Manually enter IP address, subnet mask, gateway, and DNS provided by the ISP.</li>
+<li>PPPoE: Enter username and password if your ISP requires PPPoE for DSL connections.</li>
+</ul>
+
+<h2><u><font color="red">Advanced Network Settings</font></u></h2>
+
+
+<ul>
+<li>LAN Configuration:</li>
+<br>
+<li>Set a static IP for the router’s LAN, typically 192.168.1.1, but it can be changed to avoid conflicts.</li>
+<li>Define the DHCP IP address range for connected devices (e.g., 192.168.1.2 to 192.168.1.100).</li>
+<br>
+<li>Subnetting: If you need multiple subnets, you can change the subnet mask (e.g., 255.255.255.0).</li>
+<li>DNS Configuration: Either use ISP-provided DNS servers or set custom ones (e.g., Google DNS at 8.8.8.8).</li>
+</ul>
+
+<h2><u><font color="red">Firewall and Security Settings</font></u></h2>
+
+
+<ul>
+<li>Enable Firewall: Activate the firewall to block unauthorized access.</li>
+<li>Port Forwarding: Forward specific ports for applications like gaming, remote desktop, or web servers.</li>
+<li>Define the internal IP, external ports, and protocol (TCP/UDP).</li>
+<li>DMZ (Demilitarized Zone): Expose one device to the internet for unrestricted access, if required.</li>
+<li>MAC Address Filtering: Allow or block specific devices based on their MAC addresses.</li>
+<li>Disable WPS: WPS can be a security risk, so disabling it can improve security.</li>
+</ul>
+
+<h2><u><font color="red">Wireless Configuration</font></u></h2>
+
+
+<ul>
+<li>Dual-Band Setup (if supported): Configure both 2.4 GHz (longer range) and 5 GHz (higher speed) networks.</li>
+<li>Channel Selection: Set channels manually or use auto-selection to avoid interference.</li>
+<li>Guest Network: Set up a separate network for guests with limited access to your main network.</li>
+</ul>
+
+<h2><u><font color="red">Quality of Service (QoS)</font></u></h2>
+
+
+<ul>
+<li>Prioritize Traffic: Prioritize traffic for specific applications, devices, or ports (useful for streaming or gaming).</li>
+<li>Set Bandwidth Limits: Define bandwidth limits for devices to avoid network congestion.</li>
+</ul>
+
+<h2><u><font color="red">VPN Configuration (if available)</font></u></h2>
+
+
+<ul>
+<li>VPN Client/Server Mode: If your router supports it, you can set it up to connect to a VPN service.</li>
+<li>Enter VPN Details: Input server address, protocol, username, and password, as required by your VPN provider.</li>
+</ul>
+
+<h2><u><font color="red">Save and Reboot</font></u></h2>
+
+
+<ul>
+<li>After making all necessary changes, save your settings. Many routers require a reboot to apply the changes.</li>
+</ul>
+
+<h2><u><font color="red">Backup Configuration</font></u></h2>
+
+
+
+<ul>
+<li>Go to the Backup/Restore section, and save a copy of the configuration in case you need to reset or restore settings in the future.</li>
+</ul>
+
